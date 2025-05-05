@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <header id="header">
+      <div class="sun">
+        <img id="suny" src="imgs/main-sun.png" alt="sun" />
+      </div>
+      <div class="cloud">
+        <img id="cloudy" src="imgs/cloudyy.png" alt="cloud" />
+      </div>
+      <div class="haze">
+        <img id="hazey" src="imgs/haze.png" alt="cloud" />
+      </div>
+      <h1>Explore the World</h1>
+      <input id="cityInp" type="text" placeholder="City Name" />
+    </header>
+
+    <div id="container">
+      <div id="boxContainer">
+        <div class="box" id="box1">
+          <p class="name">Name</p>
+          <p id="temp" class="weather-info">Temperature :</p>
+          <p id="fl" class="weather-info">Feels Like :</p>
+          <p id="t-min" class="weather-info">Temp Min :</p>
+          <p id="t-max" class="weather-info">Temp Max :</p>
+          <p id="pressure" class="weather-info">Pressure :</p>
+          <p id="humidity" class="weather-info">Humidity :</p>
+        </div>
+        <div class="box" id="box2">
+          <p class="name">Name</p>
+          <p style="font-weight: bold" id="weather" class="weather-info">
+            Weather :
+          </p>
+          <p id="country" class="weather-info">Country :</p>
+          <p id="lon" class="weather-info">Lon :</p>
+          <p id="lat" class="weather-info">Lat :</p>
+        </div>
+        <div class="box" id="box3">
+          <p class="name">Name</p>
+          <p id="wind" class="weather-info">Wind Speed :</p>
+          <p id="sea" class="weather-info">Sea Level :</p>
+          <p id="grnd" class="weather-info">Ground Level :</p>
+          <p id="id" class="weather-info">Id :</p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
